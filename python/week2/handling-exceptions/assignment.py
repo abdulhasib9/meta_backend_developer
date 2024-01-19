@@ -36,9 +36,15 @@ def read_file_into_list(file_name):
         list: a list where each element is a line in the file.
     """
     ### WRITE SOLUTION HERE
+    # with open(file_name, 'r') as file:
+    #     lines = file.readlines()
+    #     return lines
+    
+    lines = []
     with open(file_name, 'r') as file:
-        lines = file.readlines()
-        return lines
+        for line in file:
+            lines.append(line.strip())  # strip() removes leading and trailing whitespaces
+    return lines
 
     raise NotImplementedError()
 
@@ -58,10 +64,13 @@ def write_first_line_to_file(file_contents, output_filename):
         output_filename: the name of the file to be written to
     """
     ### WRITE SOLUTION HERE
-    first_line = file_contents.split('\n')[0]
+    #Get the first line
+    first_line = file_contents.split('\n', 1)[0]
+
+    # Write the first line to the output file
     with open(output_filename, 'w') as output_file:
         output_file.write(first_line)
-
+        return None
     raise NotImplementedError()
 
 
