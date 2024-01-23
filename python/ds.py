@@ -41,3 +41,16 @@ one,two, *others=specific
 print(one)
 print(two)
 print(others)
+
+print("************************************************************")
+#iterating over the list 
+new_list = list("Abdul hasib yousufzai")
+
+for c in enumerate(new_list):
+    #printing the index 
+    print("index: "+str(c[0])+" values: "+c[1])
+    
+#we can also use unpacking list method to perform same job
+for index,item in enumerate(new_list):
+    print(index,item)
+    
