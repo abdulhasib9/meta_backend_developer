@@ -17,3 +17,6 @@ for x in s:
     
 ss=list(map(lambda item:item[1],items))
 print(ss)
+
+sss = list(map(lambda item:item[1]>5,items))
+print(sss)
