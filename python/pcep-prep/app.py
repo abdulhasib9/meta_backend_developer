@@ -68,6 +68,48 @@
 # print(type(x),x)
 # print(10**3)
 
-x = input("x: ")
+# x = input("x: ")
+#
+# print(bool(x))
 
-print(bool(x))
+# age = 2
+# if age >=20 and age<60:
+#     print("you are eligible!")
+# else:
+#     print("you are not eligible")
+
+# age=23
+# message = "eligible" if age >18 else "not eligible"
+# print(message)
+
+# for x in range(0,10,2):
+#     print(x)
+
+# names = ["jason",'hasob']
+# for x in names:
+#     if x.startswith("jj"):
+#         print("Found")
+#         break
+# else:
+#     print("Not Found!")
+
+
+# guess = 0
+# answer =5
+# while guess != answer:
+#     guess = int(input("Please guess the number!"))
+#
+# else:
+#     print(f"Congratulations you guessed it it is number {guess} ")
+# def sum (num:int,num2:int=1)->int:
+#     return "string"
+# print(sum(3))
+
+
+# def multiply (*list):
+#     number =1
+#     for x in list:
+#         number *=x
+#     return number
+#
+# print(multiply(2,2,2))
