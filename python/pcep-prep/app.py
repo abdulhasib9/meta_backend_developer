@@ -112,4 +112,85 @@
 #         number *=x
 #     return number
 #
+
 # print(multiply(2,2,2))
+
+# print(multiply(2,2,2))
+
+# print(multiply(2,2,2))
+
+# print(multiply(2,2,2))
+
+# print(multiply(2,2,2))
+
+# print(multiply(2,2,2))
+
+# print(multiply(2,2,2))
+
+# user_input = int(input("please enter a number "))
+# if user_input %3 ==0 and user_input %5==0:
+#     print("FizzBuzz")
+# elif user_input %3 ==0:
+#     print("Fizz")
+# elif user_input %5==0:
+#     print("Buzz")
+# else:
+#     print(user_input)
+
+# list_num = list(range(20))
+# print(list_num)
+# print(list_num[::-1])
+#
+# first,second, *others=list_num
+# print(first)
+# print(others)
+
+
+# letters = ["a","b","c"]
+# for key,values in enumerate(letters):
+#     print(key, values)
+#
+# letters.append("d")
+# print(letters)
+# letters.insert(0,"zero")
+# print(letters)
+# letters.pop()
+# print(letters)
+# letters.remove("b")
+# del letters[0:2]
+# print(letters)
+# letters.clear()
+# print(letters)
+
+# print(letters.count("a"))
+# if "d" in letters:
+#     print(letters.index("d"))
+# print(len(letters))
+
+#list_numbers=[2,44,12,33,445,123]
+
+# list_numbers.sort()
+# print(list_numbers)
+# list_numbers.sort(reverse=True)
+# print(list_numbers)
+
+# print(sorted(list_numbers,reverse=True))
+# print(list_numbers)
+
+items =[
+    ("product1",14),
+    ("product2",10),
+    ("product3",4)
+]
+# def sort_items(item):
+#     return item[1]
+# items.sort(key=sort_items)
+# print(items)
+
+#using the lambda expression
+# items.sort(key=lambda item:item[1])
+# print(items)
+
+# price_list = list(map(lambda item:item[1],items))
+# print(price_list)
+
