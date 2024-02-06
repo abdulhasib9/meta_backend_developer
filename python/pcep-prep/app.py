@@ -193,4 +193,23 @@ items =[
 
 # price_list = list(map(lambda item:item[1],items))
 # print(price_list)
+# expensive = list(filter(lambda item:item[1]>=10,items))
+# print(expensive)
+
+#list comprehension
+# prices = [item[1] for item in items]
+# print(prices)
+#
+# expensive =[item[1]>=10 for item in items]
+# print(expensive)
+# expensive2 = [item for item in items if item[1]>=10]
+# print(expensive2[0:3])
+
+# list1 =[12,3,5]
+# list2=[2,34,5]
+#
+# print(list(zip("abc",list1,list2)))
+
+
+#ques in python
 
