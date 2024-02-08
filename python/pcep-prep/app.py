@@ -177,11 +177,11 @@
 # print(sorted(list_numbers,reverse=True))
 # print(list_numbers)
 
-items =[
-    ("product1",14),
-    ("product2",10),
-    ("product3",4)
-]
+# items =[
+#     ("product1",14),
+#     ("product2",10),
+#     ("product3",4)
+# ]
 # def sort_items(item):
 #     return item[1]
 # items.sort(key=sort_items)
@@ -210,6 +210,85 @@ items =[
 #
 # print(list(zip("abc",list1,list2)))
 
-
+# items =[
+#     ("prod1",39),
+#     ("prod2",9),
+#     ('prod3',23)
+#
+# ]
+#
+# sorted_prices = [item[1] for item in items if item[1]>9]
+# print(sorted_prices)
 #ques in python
+
+# from collections import deque
+# deque_list = deque([])
+# deque_list.append(1)
+# deque_list.append(2)
+# deque_list.append(3)
+# deque_list.popleft()
+# print(deque_list)
+# if not deque_list:
+#     print("deque list is empty")
+
+#touples
+# first = 1,2
+# print(type(first))
+# second = (1,2,4,5)
+# if 10 in second:
+#     print("10 is available in list")
+# else:
+#     print("sorry 10 is not available")
+#
+# stringtouple= tuple("programming")
+# print(stringtouple)
+# f,s,t,*d=stringtouple
+# print(f)
+# print(d)
+
+#swapping numbers
+# x=10
+# y=11
+# x,y=y,x
+# print(x)
+# print(y)
+
+# from array import array
+# array_demo = array('i',[12,334,55,3])
+# array_demo.append(32)
+# print(array_demo)
+
+# dic = dict(y=23,x=2,z=3)
+# print(dic)
+#
+# for x,y in dic.items():
+#     print(x,y)
+#
+#
+#
+# del dic["x"]
+# print(dic)
+
+# values = [x *2 for x in range(5)]
+# print(values)
+
+# dic = {x: x*2 for x in range(5)}
+# print(dic)
+
+#generator objec
+# values = (x*2 for x in range(1,100000))
+# from sys import getsizeof
+# print(getsizeof(values))
+# values =[x*2 for x in range(100000)]
+# print(getsizeof(values))
+
+#unpacking values
+# values = [*"Hello"]
+# print(*values)
+#
+# dic = {'x':29}
+# dic2={'x':34,'y':23}
+#
+# dic3 = {**dic,'x':"hello",**dic2}
+# print(dic3)
 
